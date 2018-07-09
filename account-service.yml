@@ -1,10 +1,12 @@
-greeting: "Hello!!"
+cloud:
+  greeting: "Hello!!"
 
 ---
 
 spring:
   profiles: development
-greeting: "Hello development!!"
+cloud:
+  greeting: "Hello development!!"
 
 
 ---
@@ -12,7 +14,8 @@ greeting: "Hello development!!"
 
 spring:
   profiles: sandbox
-greeting: "Hello sandbox!!"
+cloud:
+  greeting: "Hello sandbox!!"
 
 
 ---
@@ -20,5 +23,6 @@ greeting: "Hello sandbox!!"
 
 spring:
   profiles: production
-greeting: "Hello production!!"
+cloud:
+  greeting: "Hello production!!"
 
