@@ -1,1 +1,24 @@
 greeting: "Hello!!"
+
+---
+
+spring:
+  profiles: development
+greeting: "Hello development!!"
+
+
+---
+
+
+spring:
+  profiles: sandbox
+greeting: "Hello sandbox!!"
+
+
+---
+
+
+spring:
+  profiles: production
+greeting: "Hello production!!"
+
