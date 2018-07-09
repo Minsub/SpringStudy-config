@@ -6,7 +6,7 @@ cloud:
 spring:
   profiles: development
 cloud:
-  greeting: "안녕하세요 development!!"
+  greeting: "Heelooooo development!!"
 
 
 ---
